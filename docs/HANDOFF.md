@@ -37,7 +37,7 @@ A moi (gift) register for Indian family functions. Hosts and collectors record c
 
 ## Setup status (verified 16 Nov 2026)
 - Firebase project: display name `anugraham-dev`, project ID `anugraham-dev-83368`, Firestore in asia-south1. Plan: Blaze (upgraded by Barani). Google sign-in enabled. No apps registered.
-- GitHub repo: github.com/anugrahammoi/anugrahammoi (CLAUDE.md, HANDOFF, design tokens committed; PRD.md and ARCHITECTURE.md still to be exported into docs/).
+- GitHub repo: github.com/anugrahammoi/anugrahammoi (CLAUDE.md, docs/HANDOFF.md, docs/PRD.md, docs/ARCHITECTURE.md, docs/design-tokens.json all committed).
 - Not yet verified: local tools (Flutter 3.35+, Node LTS, Firebase CLI, FlutterFire CLI, `dart pub global activate very_good_cli`), domain anugraham.in availability, trademark search (Classes 9, 42).
 
 ## Next steps
