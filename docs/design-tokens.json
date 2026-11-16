@@ -1,0 +1,59 @@
+{
+  "name": "Anugraham",
+  "version": 1,
+  "color": {
+    "themes": [{"id": "light", "name": "Light"}, {"id": "dark", "name": "Dark"}],
+    "tokens": [
+      {"name": "surface-100", "value": {"light": "#FBF6EC", "dark": "#17120E"}, "usage": "Page background — warm cream like a wedding invitation card."},
+      {"name": "surface-200", "value": {"light": "#FFFFFF", "dark": "#231C16"}, "usage": "Cards, sheets, the hall-entry form."},
+      {"name": "ink", "value": {"light": "#2A1A12", "dark": "#F4EADF"}, "usage": "Primary text and numbers on surface-100 and surface-200."},
+      {"name": "ink-muted", "value": {"light": "#6B5648", "dark": "#BFAE9F"}, "usage": "Secondary text: ooru, relation, timestamps, helper text."},
+      {"name": "line", "value": {"light": "#E6DACB", "dark": "#3A2F27"}, "usage": "Hairline dividers and input borders at rest."},
+      {"name": "kumkum", "value": {"light": "#A3122A", "dark": "#E2566B"}, "usage": "Brand and primary action (Save entry, Share link). Kumkum red — the colour of auspicious beginnings."},
+      {"name": "on-kumkum", "value": {"light": "#FFFFFF", "dark": "#17120E"}, "usage": "Text and icons on kumkum fills."},
+      {"name": "manjal", "value": {"light": "#E8A317", "dark": "#F0B73A"}, "usage": "Turmeric accent: highlights, gold/silver gift markers, the running total band. Never for body text; text on it uses ink."},
+      {"name": "ilai", "value": {"light": "#2E7D32", "dark": "#6CC070"}, "usage": "Banana-leaf green: confirmed entries, success, synced state."},
+      {"name": "pending", "value": {"light": "#9A5B00", "dark": "#F2B04C"}, "usage": "Pending guest submissions and unsynced (offline) entries. Always paired with an icon or label, never colour alone."},
+      {"name": "danger", "value": {"light": "#B3261E", "dark": "#F2B8B5"}, "usage": "Delete, reject, errors. Use sparingly — distinct from kumkum by always carrying a label."}
+    ]
+  },
+  "type": {
+    "fonts": [],
+    "families": {
+      "sans": "\"Noto Sans Tamil\", \"Noto Sans\", system-ui, sans-serif",
+      "display": "\"Noto Serif Tamil\", \"Noto Serif\", Georgia, serif"
+    },
+    "groups": [
+      {"name": "Display", "family": "display", "styles": [
+        {"name": "display", "fontSize": "32px", "lineHeight": "42px", "fontWeight": 700},
+        {"name": "title", "fontSize": "22px", "lineHeight": "32px", "fontWeight": 700}
+      ]},
+      {"name": "Text", "family": "sans", "styles": [
+        {"name": "amount", "fontSize": "28px", "lineHeight": "36px", "fontWeight": 700},
+        {"name": "body", "fontSize": "17px", "lineHeight": "28px", "fontWeight": 400},
+        {"name": "body-strong", "fontSize": "17px", "lineHeight": "28px", "fontWeight": 600},
+        {"name": "label", "fontSize": "15px", "lineHeight": "24px", "fontWeight": 600},
+        {"name": "caption", "fontSize": "13px", "lineHeight": "20px", "fontWeight": 400}
+      ]}
+    ]
+  },
+  "spacing": {
+    "tokens": [
+      {"name": "space-1", "value": "4px", "usage": "Icon-to-text gap."},
+      {"name": "space-2", "value": "8px", "usage": "Gap inside chips and between label and field."},
+      {"name": "space-3", "value": "12px", "usage": "Gap between list rows' text lines."},
+      {"name": "space-4", "value": "16px", "usage": "Card padding; screen side margin."},
+      {"name": "space-6", "value": "24px", "usage": "Gap between form groups and sections."},
+      {"name": "space-8", "value": "32px", "usage": "Large section breaks; kolam dot pitch."},
+      {"name": "tap-min", "value": "56px", "usage": "Minimum height of buttons, list rows and inputs in hall mode — older users, crowded hall, one hand."}
+    ]
+  },
+  "radius": {
+    "tokens": [
+      {"name": "radius-sm", "value": "6px", "usage": "Chips, small tags."},
+      {"name": "radius-md", "value": "12px", "usage": "Buttons, inputs, list cards."},
+      {"name": "radius-lg", "value": "20px", "usage": "Sheets, the total band, dialogs."},
+      {"name": "radius-pill", "value": "999px", "usage": "Mode selector pills (Cash / UPI / Gold / Gift)."}
+    ]
+  }
+}
